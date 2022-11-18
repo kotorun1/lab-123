@@ -1,0 +1,44 @@
+/* 9) */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.first{
+
+    background-color: papayawhip;
+}
+.row{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.text{
+    font-size: 17px;
+}
+#Services{
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.column_wrap{
+    width: 350px;
+}
+.EemployeesCounterWrap{
+    display: flex;
+    align-items: center;
+}
+.FieldOfActivityRadioWrap{
+    display: flex;
+}
+.OperationsWithBuyersCounterWrap{
+    display: flex;
+    align-items: center;
+}
+.OperationsWithSuppliersCounterWrap{
+    display: flex;
+    align-items: center;
+}
+.RevenueCounterWrap{
+    display: flex;align-items: center;
+}

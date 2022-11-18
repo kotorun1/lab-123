@@ -1,0 +1,195 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" href="./assets/css/style.css">
+<title>JS DOM paragraph style</title>
+</head> 
+<body>
+    
+
+
+    <!-- Задания-->
+
+
+<!-- 1) -->
+<!-- <p id ='text'>Простое задание по JS</p> 
+<div>
+	<button id="jsstyle"
+	onclick="js_style()">Style</button>
+</div> -->
+
+
+<!-- 2 -->
+    <!-- <form id="form1" onsubmit="getFormvalue(event)">
+    First name: <input type="text" name="fname" value="David" id ='fname'><br>
+    Last name: <input type="text" name="lname" value="Beckham" id = 'lname'><br>
+    <input type="Submit" value="Send">  -->
+
+
+<!-- 3) -->
+
+
+<!-- <p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://learn.javascript.ru"></a></p>
+<button onclick="getAttributes()">Click here to get  attributes value</button> -->
+
+
+
+    <!-- 4 -->
+<!-- </form> -->
+<!-- <table id="sampleTable"  border ="1" > 
+    <tr><td>Row1 cell1</td> 
+    <td>Row1 cell2</td></tr> 
+    <tr><td>Row2 cell1</td> 
+    <td>Row2 cell2</td></tr> 
+    </table><br> 
+    <input type="button" onclick="insert_Row()" value="Insert row">   -->
+
+
+
+<!-- 5) -->
+
+
+<!-- <table id="myTable" border = "1">
+    <tr><td>Row1 cell1</td><td>Row1 cell2</td></tr>
+    <tr><td>Row2 cell1</td><td>Row2 cell2</td></tr>
+    <tr><td>Row3 cell1</td><td>Row3 cell2</td></tr>
+</table>
+<form>
+    <input type="button" onclick="changeContent()" value="Change content">
+</form> -->
+
+<!-- 7) -->
+
+<!-- <form>
+    <select id="colorSelect">
+        <option>Red</option>
+        <option>Green</option>
+        <option>White</option>
+        <option>Black</option>
+    </select>
+    <input type="button" onclick="removecolor()" value="Select and Remove">
+</form> -->
+
+
+
+
+
+<!-- 9) -->
+<!-- 
+<div class="container">
+    <div class="first">
+        <div class="row">
+            <div class="column_wrap">
+                <p class="text" id="KindOfActivity">Вид деятельности компании:</p>
+            </div>
+            <select id="Services">
+                <option value="100000" class="text">Разработка программного обеспечения </option>
+                <option value="110000" class="text">Разработка и поддержка ИС </option>
+                <option value="120000" class="text">Проектирование IT-продукта  </option>
+                <option value="130000" class="text">Автоматизация бизнес-процессов </option>
+                <option value="140000" class="text">Разработка личного кабинета </option>
+                <option value="150000" class="text">Автоматизация управленческого учета </option>
+                <option value="160000" class="text">Разработка веб-сервисов и порталов </option>
+                <option value="170000" class="text">Другое... </option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="PrimaryDocuments">Вид первичной документации в 1С</p></div>
+            <div class="column">    
+                <p><input id="Accountant" name="PrimaryDocumentsRadio" type="radio" value="20000">Бухгалтер Бизнес-Аналитиеи </p>
+                <p><input id="Am" name="PrimaryDocumentsRadio" type="radio" value="0"> Сам через удалённый доступ</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="NumberEemployees">Количество сотрудников</p></div>
+            <div class="EemployeesCounterWrap">
+                <div class="input_wrap">
+                    <input id = 'EemployeesCounter' type="number" value="0">
+                </div>
+                <div class="textBlock">
+                    <p class="text_w">чел.</p>
+                </div>
+                <div class="slidecontainer">
+                    <input id="slideCounter" type="range" min="1" max="100" value="0">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="FieldOfActivity">СФера деятельности компании</p></div>
+            <div class="FieldOfActivityRadioWrap">
+                <p><input id="General" name="FieldOfActivityRadio" type="radio" value="15000">Общая</p>
+                <p><input id="UNVD" name="FieldOfActivityRadio" type="radio" value="20000">ЕНВД</p>
+                <p><input id="ORALLY" name="FieldOfActivityRadio" type="radio" value="25000">УСНО15%</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="OrganizationalLegalForm">Организационно правовая форма</p></div>
+            <select id="Услуги">
+                <option value="45000" class="text">ООО </option>
+                <option value="32000"class="text">ИП </option>
+                <option value="62000" class="text">Другое... </option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="OperationsWithBuyers">Кол-во операций с покупателями прочих поступлений(в месяц)</p></div>
+            <div class="OperationsWithBuyersCounterWrap">
+                <input type="number" value="10">
+                <div class="textBlock">
+                    <p class="text_w">шт.</p>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="10">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="OperationsWithSuppliers">Кол-во операций с поставщиками прочих оплат(в месяц)</p></div>
+            <div class="OperationsWithSuppliersCounterWrap">
+                <input type="number" value="10">
+                <div class="textBlock">
+                    <p class="text_w">шт.</p>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="10">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="Revenue">Выручка(в месяц)</p></div>
+            <div class="RevenueCounterWrap">
+                <input type="number" value="0">
+                <div class="textBlock">
+                    <p class="text_w">руб.</p>
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="0">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column_wrap"><p class="text" id="Revenue">Базовая стоимость(в месяц)</p></div>
+            <p class="result" id="result"></p>
+        </div>
+    </div>
+    <div onclick="Calculate()" class="btn">Рассчитать</div>
+</div>
+
+
+
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
